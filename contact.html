@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Smart Landing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="main-nav" aria-label="Main navigation">
+      <div class="logo">SMART <span class="gold">LANDING</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content-page">
+    <section class="contact-section">
+      <h1>Get in Touch</h1>
+      <p>Membership is by invitation or application. Tell us about your travel vision — we’ll take it from there.</p>
+
+      <form id="inquiry-form" class="inquiry-form">
+        <div class="form-row">
+          <label for="fullname">Full name</label>
+          <input type="text" id="fullname" name="fullname" required minlength="2">
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Your ideal journey or inquiry</label>
+          <textarea id="message" name="message" rows="6" required minlength="10"></textarea>
+        </div>
+
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Smart Landing. Members Only. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

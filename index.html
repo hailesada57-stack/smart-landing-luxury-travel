@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Landing – Private Aviation & Concierge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="main-nav" aria-label="Main navigation">
+      <div class="logo">SMART <span class="gold">LANDING</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="subtitle">Est. 2026 • Exclusive Global Journeys</p>
+        <h1>The World Awaits.</h1>
+        <p>Curated private aviation & concierge experiences for the most discerning travelers.</p>
+      </div>
+      <button class="scroll-btn" aria-label="Explore experiences" onclick="smoothScroll('#collection')">
+        Discover ↓
+      </button>
+    </section>
+
+    <section class="collection" id="collection" aria-labelledby="collection-title">
+      <div class="section-header">
+        <h2 id="collection-title">The Signature Edit</h2>
+        <p>Curated availability — Q1–Q2 2026</p>
+      </div>
+
+      <div class="experiences-grid" id="experiences-grid"></div>
+
+      <div class="load-more-area">
+        <button id="load-more-btn" type="button" class="btn primary">Show More Journeys</button>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="experience-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <button class="close-dialog" aria-label="Close">×</button>
+      <h2 id="dialog-title"></h2>
+      <div id="dialog-content"></div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>© 2026 Smart Landing. Members Only. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
