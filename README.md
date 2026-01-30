@@ -24,7 +24,4 @@ Built using **only vanilla web technologies** (no frameworks, no libraries, no b
 - No external libraries / frameworks / preprocessors
 
 ## How to Run the Project
-
-1. Clone the repository  
-   
-   git clone https://github.com/YOUR-USERNAME/smart-landing-luxury-travel.git
+[Live Demo](https://gilded-salamander-d03077.netlify.app/)
